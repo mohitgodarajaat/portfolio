@@ -1,16 +1,78 @@
-# React + Vite
+# 🌐 Mohit | Portfolio🫂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there 👋
+I’m **Mohit**, a passionate and dedicated tech enthusiast currently pursuing **B.Tech in Information Technology** from **GJU University**.
 
-Currently, two official plugins are available:
+I enjoy learning, building, and exploring new technologies — especially in **programming, cybersecurity, and AI** 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📍 From: V.P.O Nangthala, Hisar, Haryana (125047)
+* 📞 Contact: 9813800724
+* 📧 Email: [officialgodaramohit@gmail.com](mailto:officialgodaramohit@gmail.com)
 
-## Expanding the ESLint configuration
+I am continuously working on improving my skills and building real-world projects that reflect my growth in the tech field.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technical Skills
+
+* 💻 MS Word, Excel, PowerPoint
+* 🧠 Basic Programming & Coding Logic
+* 🔐 Ethical Hacking & Cyber Security Fundamentals
+* 🌐 Computer & Networking Basics
+
+---
+
+## 🎓 Education
+
+* **10th (2022 - 2023)**
+  Govt. Senior Secondary School, Nangthala
+  📊 Score: 84.2%
+
+* **Diploma (2023 - 2026)**
+  Govt. Polytechnic, Dhangar (Fatehabad)
+  📊 Score: 72%
+
+* **B.Tech (Current)**
+  GJU University – Information Technology
+
+---
+
+## 💼 Training & Experience
+
+* **Java Language**
+  Novem Controls, Chandigarh *(July 2024 - Sept 2024)*
+
+* **Python Language**
+  Acent India Technoart Pvt. Ltd., Gurugram *(May 2025 - June 2025)*
+
+* **Ethical Hacking**
+  HLEI(OPC) Pvt. Ltd., Bhattu Mandi *(June 2025 - Aug 2025)*
+
+---
+
+## 🏆 Certifications
+
+* ✅ Java Programming (Core)
+* ✅ Python Programming (Basics)
+* ✅ Ethical Hacking & Cyber Security (Professional Training)
+
+---
+
+## 🎯 Career Goal
+
+My goal is to become a successful **AI Engineer** and build impactful solutions that solve real-world problems.
+
+---
+
+## ✨ Final Note
+
+I believe in:
+
+> **“Learn → Build → Improve → Repeat” 🔥**
+
+Thanks for visiting my portfolio ❤️‍🔥
+Feel free to explore my work and connect with me!
