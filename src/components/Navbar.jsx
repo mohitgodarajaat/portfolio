@@ -4,14 +4,35 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isLightMode, setIsLightMode] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
     window.addEventListener('scroll', handleScroll);
+    
+    // Check local storage for theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      setIsLightMode(true);
+      document.documentElement.classList.add('light-mode');
+    }
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const toggleTheme = () => {
+    const newMode = !isLightMode;
+    setIsLightMode(newMode);
+    if (newMode) {
+      document.documentElement.classList.add('light-mode');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.classList.remove('light-mode');
+      localStorage.setItem('theme', 'dark');
+    }
+  };
 
   return (
     <nav className={`navbar ${scrolled ? 'nav-scrolled glass' : ''}`}>
@@ -26,6 +47,11 @@ const Navbar = () => {
           <li><Link to="training" smooth={true} duration={500}>Training</Link></li>
           <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
           <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+          <li>
+            <button onClick={toggleTheme} className="theme-toggle-btn" aria-label="Toggle theme">
+              {isLightMode ? '🌙' : '☀️'}
+            </button>
+          </li>
         </ul>
       </div>
     </nav>

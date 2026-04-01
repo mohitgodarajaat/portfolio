@@ -24,6 +24,23 @@
   --font-heading: 'Outfit', sans-serif;
 }
 
+:root.light-mode {
+  --bg-color: #f8f9fa;
+  --text-primary: #121212;
+  --text-secondary: #555555;
+  
+  --accent-primary: #0066cc;
+  --accent-secondary: #5e17eb;
+  --accent-glow: rgba(0, 102, 204, 0.2);
+
+  --bg-gradient: radial-gradient(circle at 15% 50%, rgba(94, 23, 235, 0.05), transparent 25%),
+                 radial-gradient(circle at 85% 30%, rgba(0, 102, 204, 0.05), transparent 25%);
+  --text-gradient: linear-gradient(90deg, #0066cc, #5e17eb);
+
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.08);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
