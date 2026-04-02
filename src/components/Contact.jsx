@@ -14,17 +14,17 @@ const Contact = () => {
         <div className="glass-card" style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
-            <motion.div whileHover={{ scale: 1.05 }} className="glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '1.5rem', background: 'rgba(255, 255, 255, 0.02)' }}>
+            <motion.a href="tel:+919813800724" whileHover={{ scale: 1.05 }} className="glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '1.5rem', background: 'rgba(255, 255, 255, 0.02)', textDecoration: 'none', color: 'inherit' }}>
               <FaPhone size={30} color="var(--accent-primary)" style={{ marginBottom: '1rem' }} />
               <h4>Phone</h4>
               <p style={{ marginTop: '0.5rem', color: 'var(--text-secondary)' }}>+91 9813800724</p>
-            </motion.div>
+            </motion.a>
 
-            <motion.div whileHover={{ scale: 1.05 }} className="glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '1.5rem', background: 'rgba(255, 255, 255, 0.02)' }}>
+            <motion.a href="mailto:officialgodaramohit@gmail.com" whileHover={{ scale: 1.05 }} className="glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '1.5rem', background: 'rgba(255, 255, 255, 0.02)', textDecoration: 'none', color: 'inherit' }}>
               <FaEnvelope size={30} color="var(--accent-secondary)" style={{ marginBottom: '1rem' }} />
               <h4>Email</h4>
               <p style={{ marginTop: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.9rem', wordBreak: 'break-all' }}>officialgodaramohit@gmail.com</p>
-            </motion.div>
+            </motion.a>
 
             <motion.div whileHover={{ scale: 1.05 }} className="glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '1.5rem', background: 'rgba(255, 255, 255, 0.02)' }}>
               <FaMapMarkerAlt size={30} color="#ff0055" style={{ marginBottom: '1rem' }} />
